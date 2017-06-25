@@ -1,0 +1,30 @@
+{
+  "name": "yelp_camp",
+  "version": "1.0.0",
+  "description": "trial website",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "body-parser": "^1.17.2",
+    "passport": "^0.3.2",
+    "express-session": "^1.15.3",
+    "express": "^4.15.3",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "mongoose": "^4.10.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryryespi/yelpCamp.git"
+  },
+  "author": "Ryan Espinosa <ryryespi@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryryespi/yelpCamp/issues"
+  },
+  "homepage": "https://github.com/ryryespi/yelpCamp#readme"
+}
