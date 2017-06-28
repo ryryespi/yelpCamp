@@ -58,11 +58,7 @@ app.get("/",function(req, res){
 
 
 
-//edit campground route
-//router.get("/:id/edit", function(req, res){
- //   res.send("EDIT CAMPGROUND ROUTE");
-//});
-//update campground route
+
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Server has Started!");
