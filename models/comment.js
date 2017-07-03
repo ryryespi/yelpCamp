@@ -1,4 +1,5 @@
 var mongoose = require("mongoose");
+
 var commentSchema = mongoose.Schema({
     text: String,
     author: {
@@ -7,7 +8,6 @@ var commentSchema = mongoose.Schema({
             ref: "User"
         },
         username: String
-        
     }
 });
 
