@@ -14,4 +14,8 @@
 # [START runtime]
 runtime: nodejs
 env: flex
+
+env_variables:
+    IP: 0.0.0.0
+    
 # [END runtime]
